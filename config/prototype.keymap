@@ -52,6 +52,11 @@
             key-positions = <17 18>;
             bindings = <&kp RGUI>;
         };
+
+        new_combo {
+            bindings = <&bt BT_CLR>;
+            key-positions = <10 11 12 13>;
+        };
     };
 
     keymap {
