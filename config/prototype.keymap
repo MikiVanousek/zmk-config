@@ -30,6 +30,15 @@
                 <&kp NUMBER_2>,
                 <&macro_release>,
                 <&kp RIGHT_ALT>;
+
+            wait-ms = <1>;
+            tap-ms = <0>;
+        };
+        soft_s: soft_s {
+            compatible = "zmk,behavior-macro";
+            label = "SOFT_S";
+            #binding-cells = <0>;
+            bindings = <&kp RALT &kp NUMBER_3>;
         };
     };
 
@@ -50,7 +59,7 @@
 
         Number {
             bindings = <
-&kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LGUI NUMBER_1  &mt LALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LSHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt RSHIFT NUMBER_7  &mt RCTRL NUMBER_8  &mt RALT NUMBER_9  &mt RGUI NUMBER_0  &trans  &soft_e  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LGUI NUMBER_1  &mt LALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LSHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt RSHIFT NUMBER_7  &mt RCTRL NUMBER_8  &mt RALT NUMBER_9  &mt RGUI NUMBER_0  &trans  &soft_e  &soft_s  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
