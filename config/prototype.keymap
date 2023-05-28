@@ -38,11 +38,128 @@
             compatible = "zmk,behavior-macro";
             label = "SOFT_S";
             #binding-cells = <0>;
-            bindings = <&kp RALT &kp NUMBER_3>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp NUMBER_3>,
+                <&macro_release>,
+                <&kp RIGHT_ALT>;
+
+            wait-ms = <1>;
+            tap-ms = <0>;
+        };
+
+        soft_c: soft_c {
+            compatible = "zmk,behavior-macro";
+            label = "SOFT_C";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp NUMBER_4>,
+                <&macro_release>,
+                <&kp RIGHT_ALT>;
+
+            wait-ms = <1>;
+            tap-ms = <0>;
+        };
+
+        soft_r: soft_r {
+            compatible = "zmk,behavior-macro";
+            label = "SOFT_R";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp NUMBER_5>,
+                <&macro_release>,
+                <&kp RIGHT_ALT>;
+
+            wait-ms = <1>;
+            tap-ms = <0>;
+        };
+
+        soft_z: soft_z {
+            compatible = "zmk,behavior-macro";
+            label = "SOFT_Z";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp NUMBER_6>,
+                <&macro_release>,
+                <&kp RIGHT_ALT>;
+
+            wait-ms = <1>;
+            tap-ms = <0>;
+        };
+        long_y: long_y {
+            compatible = "zmk,behavior-macro";
+            label = "LONG_Y";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp NUMBER_7>,
+                <&macro_release>,
+                <&kp RIGHT_ALT>;
+
+            wait-ms = <1>;
+            tap-ms = <0>;
+        };
+        long_a: long_a {
+            compatible = "zmk,behavior-macro";
+            label = "LONG_A";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp NUMBER_8>,
+                <&macro_release>,
+                <&kp RIGHT_ALT>;
+
+            wait-ms = <1>;
+            tap-ms = <0>;
+        };
+        long_i: long_i {
+            compatible = "zmk,behavior-macro";
+            label = "LONG_I";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp NUMBER_9>,
+                <&macro_release>,
+                <&kp RIGHT_ALT>;
+
+            wait-ms = <1>;
+            tap-ms = <0>;
+        };
+        long_e: long_e {
+            compatible = "zmk,behavior-macro";
+            label = "LONG_E";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp NUMBER_0>,
+                <&macro_release>,
+                <&kp RIGHT_ALT>;
+
+            wait-ms = <1>;
+            tap-ms = <0>;
         };
     };
 
-    keymap {
+    keymap {``
         compatible = "zmk,keymap";
 
         default_layer {
