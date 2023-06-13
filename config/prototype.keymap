@@ -163,13 +163,13 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &mt LGUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LSHIFT T  &kp G  &kp M  &mt RSHIFT N  &mt RCTRL E  &mt RALT I  &mt RMETA O  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp SLASH  &lt 1 ESC  &lt 2 SPACE  &lt 0 TAB  &lt 3 ENTER  &lt 0 BACKSPACE  &lt 0 DELETE
+&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &mt LGUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LSHIFT T  &kp G  &kp M  &mt RSHIFT N  &mt RCTRL E  &mt RALT I  &mt RMETA O  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp SLASH  &lt 3 ESC  &lt 2 SPACE  &lt 0 TAB  &lt 3 ENTER  &lt 1 BACKSPACE  &lt 0 DELETE
             >;
         };
 
         Navigation {
             bindings = <
-&bt BT_CLR  &bootloader  &trans  &trans  &trans  &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none  &none  &none  &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -181,7 +181,7 @@
 
         Special {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SQT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&bootloader  &bt BT_CLR  &none  &bt BT_NXT  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp SQT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
     };
