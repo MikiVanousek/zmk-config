@@ -5,6 +5,7 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
@@ -22,8 +23,8 @@
         };
 
         new_combo {
-            bindings = <&bootloader>;
-            key-positions = <16 17 18 19>;
+            bindings = <&bt BT_CLR>;
+            key-positions = <30 31 32>;
         };
     };
 
@@ -176,7 +177,7 @@
 
         Navigation {
             bindings = <
-&none  &none  &none  &none  &none  &none  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none  &none  &none  &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &bt BT_NXT  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &none  &none  &none  &none  &none  &bt BT_PRV  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
