@@ -171,7 +171,7 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &mt LGUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LSHIFT T  &kp G  &kp M  &mt RSHIFT N  &mt RCTRL E  &mt LALT I  &mt RMETA O  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp SLASH  &lt 3 ESC  &lt 1 SPACE  &lt 0 TAB  &lt 0 ENTER  &lt 2 BACKSPACE  &lt 4 DELETE
+&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &mt LGUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LSHIFT T  &kp G  &kp M  &mt RSHIFT N  &mt RCTRL E  &mt LALT I  &mt RMETA O  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp SLASH  &lt 3 ESC  &lt 1 SPACE  &lt 0 TAB  &lt 0 ENTER  &lt 2 BACKSPACE  &lt 0 DELETE
             >;
         };
 
@@ -183,19 +183,13 @@
 
         Number {
             bindings = <
-&kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LGUI NUMBER_1  &mt LALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LSHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt RSHIFT NUMBER_7  &mt RCTRL NUMBER_8  &mt RALT NUMBER_9  &mt RGUI NUMBER_0  &trans  &kp RA(NUMBER_2)  &soft_s  &soft_c  &soft_r  &soft_z  &long_y  &long_a  &long_i  &long_e  &trans  &trans  &trans  &trans  &trans  &trans
+&kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LGUI NUMBER_1  &mt RALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LSHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt RSHIFT NUMBER_7  &mt RCTRL NUMBER_8  &mt RALT NUMBER_9  &mt RGUI NUMBER_0  &none  &kp RA(NUMBER_2)  &soft_s  &soft_c  &soft_r  &soft_z  &long_y  &long_a  &long_i  &long_e  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         Special {
             bindings = <
 &none  &kp TILDE  &kp UNDERSCORE  &kp PLUS  &none  &none  &kp DOUBLE_QUOTES  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &none  &kp GRAVE  &kp MINUS  &kp EQUAL  &none  &none  &kp SQT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
