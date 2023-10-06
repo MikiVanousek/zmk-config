@@ -207,19 +207,13 @@
 
         Navigation {
             bindings = <
-&kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &none  &bt BT_SEL 0  &bt BT_SEL 1  &none  &none  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &none  &none  &none  &none  &kp PRINTSCREEN  &none  &none  &none  &kp DEL  &none  &none  &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
+&kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &none  &none  &none  &none  &none  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none  &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RIGHT_META  &kp PRINTSCREEN  &none  &none  &none  &kp DEL  &none  &none  &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         Number {
             bindings = <
 &long_or_soft  &soft_e  &soft_s  &soft_c  &soft_r  &soft_z  &long_y  &long_a  &long_i  &long_e  &mt LGUI NUMBER_1  &mt RALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LSHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt RSHIFT NUMBER_7  &mt RCTRL NUMBER_8  &mt RALT NUMBER_9  &mt RGUI NUMBER_0  &none  &kp GRAVE  &kp MINUS  &kp EQUAL  &circled_u  &none  &kp SQT  &kp LBKT  &kp RIGHT_BRACKET  &kp BSLH  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        Special {
-            bindings = <
-&none  &kp TILDE  &kp UNDERSCORE  &kp PLUS  &none  &none  &kp DOUBLE_QUOTES  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &mt LEFT_META CAPS  &mt LEFT_ALT GRAVE  &mt LCTRL MINUS  &mt LEFT_SHIFT EQUAL  &none  &none  &kp SQT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
     };
