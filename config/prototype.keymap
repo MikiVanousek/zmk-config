@@ -213,7 +213,7 @@
 
         Number {
             bindings = <
-&long_or_soft  &soft_e  &soft_s  &soft_c  &soft_r  &soft_z  &long_y  &long_a  &long_i  &long_e  &mt LGUI NUMBER_1  &mt RALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LSHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt RSHIFT NUMBER_7  &mt RCTRL NUMBER_8  &mt RALT NUMBER_9  &mt RGUI NUMBER_0  &none  &kp GRAVE  &kp MINUS  &kp EQUAL  &circled_u  &none  &kp SQT  &kp LBKT  &kp LBRC  &kp BSLH  &trans  &trans  &trans  &trans  &trans  &trans
+&long_or_soft  &soft_e  &soft_s  &soft_c  &soft_r  &soft_z  &long_y  &long_a  &long_i  &long_e  &mt LGUI NUMBER_1  &mt RALT NUMBER_2  &mt LCTRL NUMBER_3  &mt LSHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt RSHIFT NUMBER_7  &mt RCTRL NUMBER_8  &mt RALT NUMBER_9  &mt RGUI NUMBER_0  &none  &kp GRAVE  &kp MINUS  &kp EQUAL  &circled_u  &none  &kp SQT  &kp LBKT  &kp RIGHT_BRACKET  &kp BSLH  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
