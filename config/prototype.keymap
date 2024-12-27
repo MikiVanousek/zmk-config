@@ -46,6 +46,7 @@
             wait-ms = <1>;
             tap-ms = <0>;
         };
+
         soft_s: soft_s {
             compatible = "zmk,behavior-macro";
             label = "SOFT_S";
@@ -61,6 +62,7 @@
             wait-ms = <1>;
             tap-ms = <0>;
         };
+
         soft_c: soft_c {
             compatible = "zmk,behavior-macro";
             label = "SOFT_C";
@@ -76,6 +78,7 @@
             wait-ms = <1>;
             tap-ms = <0>;
         };
+
         soft_r: soft_r {
             compatible = "zmk,behavior-macro";
             label = "SOFT_R";
@@ -91,6 +94,7 @@
             wait-ms = <1>;
             tap-ms = <0>;
         };
+
         soft_z: soft_z {
             compatible = "zmk,behavior-macro";
             label = "SOFT_Z";
@@ -106,6 +110,7 @@
             wait-ms = <1>;
             tap-ms = <0>;
         };
+
         long_y: long_y {
             compatible = "zmk,behavior-macro";
             label = "LONG_Y";
@@ -121,6 +126,7 @@
             wait-ms = <1>;
             tap-ms = <0>;
         };
+
         long_a: long_a {
             compatible = "zmk,behavior-macro";
             label = "LONG_A";
@@ -136,6 +142,7 @@
             wait-ms = <1>;
             tap-ms = <0>;
         };
+
         long_i: long_i {
             compatible = "zmk,behavior-macro";
             label = "LONG_I";
@@ -151,6 +158,7 @@
             wait-ms = <1>;
             tap-ms = <0>;
         };
+
         long_e: long_e {
             compatible = "zmk,behavior-macro";
             label = "LONG_E";
@@ -166,6 +174,7 @@
             wait-ms = <1>;
             tap-ms = <0>;
         };
+
         long_or_soft: long_or_soft {
             compatible = "zmk,behavior-macro";
             label = "LONG_OR_SOFT";
@@ -181,6 +190,7 @@
             wait-ms = <1>;
             tap-ms = <0>;
         };
+
         circled_u: circled_u {
             compatible = "zmk,behavior-macro";
             label = "CIRCLED_U";
@@ -203,7 +213,7 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &mt LGUI A  &mt LEFT_ALT R  &mt LCTRL S  &mt LSHIFT T  &kp G  &kp M  &mt RSHIFT N  &mt RCTRL E  &mt LALT I  &mt LEFT_META O  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp SLASH  &lt 0 ESC  &lt 2 SPACE  &lt 1 TAB  &lt 1 ENTER  &lt 2 BACKSPACE  &lt 0 DELETE
+&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt LGUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LSHIFT F  &kp G  &kp H  &mt RSHIFT J  &mt RCTRL K  &mt LALT L  &mt LEFT_META SEMICOLON  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &lt 0 ESC  &lt 2 SPACE  &lt 1 TAB  &lt 1 ENTER  &lt 2 BACKSPACE  &lt 0 DELETE
             >;
         };
 
