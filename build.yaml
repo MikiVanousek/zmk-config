@@ -20,4 +20,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: nice_view
+    cmake-args: -DSHIELD=prototype_left
+    artifact-name: left
+  - board: nice_nano_v2
+    cmake-args: -DSHIELD=prototype_right
+    artifact-name: right
